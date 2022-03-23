@@ -84,9 +84,9 @@ const Profile: NextPage = () => {
   return (
     <Layout hasTabBar title="나의 캐럿">
       <div className="px-4">
-        <Suspense fallback="Loading Mini Profile">
+        {/* <Suspense fallback="Loading Mini Profile">
           <MiniProfile />
-        </Suspense>
+        </Suspense> */}
         <div className="mt-10 flex justify-around">
           <Link href="/profile/sold">
             <a className="flex flex-col items-center">

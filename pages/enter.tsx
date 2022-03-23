@@ -130,9 +130,9 @@ const Enter: NextPage = () => {
               ) : null}
               {method === "phone" ? (
                 <>
-                  <Suspense fallback={<button>loading!!</button>}>
+                  {/* <Suspense fallback={<button>loading!!</button>}>
                     <Bs />
-                  </Suspense>
+                  </Suspense> */}
                   <Input
                     register={register("phone")}
                     name="phone"
